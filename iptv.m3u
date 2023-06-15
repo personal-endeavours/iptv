@@ -47,6 +47,16 @@ https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
 
+#EXTINF:-1 group-title="TV" tvg-id="canal11" tvg-logo="https://i.imgur.com/mbQCGm5.png",Canal 11
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ythls.onrender.com/channel/UCMfEEaNYYX5w6nbvccTCHhg.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="mtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png",MTV Portugal
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://176.79.76.155:8000/play/a01x/index.m3u8
+
 #EXTINF:-1 group-title="TV" tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -150,25 +160,10 @@ https://live.rte.ie/live/a/channel3/news.isml/.m3u8
 
 # 📺 TV UK
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/ABwq10G.png",ITV
+#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/dlsVKO5.png",BabyTV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://31.220.41.88:8081/live/itv1.stream/chunks.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/Ji65OXG.png",ITV 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://93.190.139.35:8278/streams/d/itv2_antik/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/vYNyYGx.png",ITV 3
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://31.220.41.88:8081/live/itv3.stream/chunks.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/J9B1gvC.png",ITV 4
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://31.220.41.88:8081/live/itv4.stream/chunks.m3u8
+https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist.m3u8
 
 # 📺 TV España
 
@@ -181,3 +176,8 @@ https://ztnr.rtve.es/ztnr/1688877.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://rtvelivestreamv3.akamaized.net/segments/la2/la2_main_1080.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/M7dsfyE.png",Factoria de Ficcion
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://91.126.141.201:1935/live/smil:fdf.smil/playlist.m3u8
