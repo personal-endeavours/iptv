@@ -42,11 +42,6 @@ https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8
-
 #EXTINF:-1 group-title="TV" tvg-id="canal11" tvg-logo="https://i.imgur.com/mbQCGm5.png",Canal 11
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -63,24 +58,6 @@ http://176.79.76.155:8000/play/a01x/index.m3u8
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="TV" tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-
 #EXTINF:-1 group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -91,11 +68,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDIzIDEwOjQ6MjEgUE0maGFzaF92YWx1ZT1LeUJubjZqbG0ycmtmQmt0WUpPSWl3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjI5MmUyN2UtYzkxNS00M2NkLWIwMTQtNjFhYTg3YWQ0NWE1/
-
-#EXTINF:-1 group-title="TV" tvg-id="TVIAfrica.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI_África.png",TVI África
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="tvificcao.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
 #KODIPROP:inputstream=inputstream.adaptive
@@ -117,11 +89,13 @@ https://eventos.live.impresa.pt/opto_in2.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://stream-02.nyc.dailymotion.com/sec(-SVy60QQ6sKn1Jfj-v9Q0vypjIG5KVce2MkQTTuSyIaZXFpUSIBIK9VksK793Dq9)/dm/3/x8egnb8/s/live-2.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg",Fama TV
+#EXTINF:-1 group-title="TV" tvg-id="portochd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Canal Panda
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://streamer-a03.videos.sapo.pt/live/famatv/playlist.m3u8
+http://iptv.ndasat.com:88/universtv/0PFZPi6whJ/2927
 
+#EXTINF:-1,PT:Baby TV
+http://iptv.ndasat.com:88/universtv/0PFZPi6whJ/2109
 
 # 📺 TV Brasil
 
@@ -159,11 +133,40 @@ https://live.rte.ie/live/a/channel3/news.isml/.m3u8
 
 
 # 📺 TV UK
-
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/dlsVKO5.png",BabyTV
+#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/2880px-BBC_Logo_2021.svg.png",BBC 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://livecdn.fptplay.net/hda3/babytvhd_vhls.smil/chunklist.m3u8
+https://ve-uhd-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:uhd_stream_01/iptv_uhd_v1.mpd
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png",BBC Four
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/GjICLWN.png",BBC News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vs-cmaf-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BBC_One_Northern_Ireland_2021.svg/512px-BBC_One_Northern_Ireland_2021.svg.png",BBC One Northern Ireland
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_northern_ireland_hd/t=3840/v=pv14/b=5070016/main.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/CBeebies.svg/512px-CBeebies.svg.png",CBeebies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vs-cmaf-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/iptv_hd_abr_v1.mpd
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",MTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://195.24.89.82/MTV_SD/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/J9iWjWL.png",Teletubbies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dhx-teletubbies-2-it.samsung.wurl.tv/playlist.m3u8
 
 # 📺 TV España
 
@@ -180,4 +183,4 @@ https://rtvelivestreamv3.akamaized.net/segments/la2/la2_main_1080.m3u8
 #EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/M7dsfyE.png",Factoria de Ficcion
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://91.126.141.201:1935/live/smil:fdf.smil/playlist.m3u8
+https://ztnr.rtve.es/ztnr/1688885.m3u8
