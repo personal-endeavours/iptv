@@ -123,22 +123,22 @@ http://premiumiptvmk.com:8080/05add9be/df28c0b5be/54320
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/299022
 
-#EXTINF:-1 group-title="TV" tvg-logo="",TG 4
+#EXTINF:-1 group-title="TV" tvg-logo="https://es.wikipedia.org/wiki/Archivo:TG4_logo.svg",TG 4
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/11572
 
-#EXTINF:-1 group-title="TV" tvg-logo="",Virgin Media One
+#EXTINF:-1 group-title="TV" tvg-logo="https://static.tvmaze.com/uploads/images/large_landscape/395/988351.jpg",Virgin Media One
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/122200
 
-#EXTINF:-1 group-title="TV" tvg-logo="",Virgin Media Two
+#EXTINF:-1 group-title="TV" tvg-logo="https://media.info/i/lf/600/1536429801/116.png",Virgin Media Two
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/11683
 
-#EXTINF:-1 group-title="TV" tvg-logo="",Virgin Media Three
+#EXTINF:-1 group-title="TV" tvg-logo="https://media.info/i/lf/600/1536429861/179.png",Virgin Media Three
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/7995
@@ -154,21 +154,44 @@ http://195.24.89.82/MTV_SD/index.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://dhx-teletubbies-2-it.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV+1" tvg-logo="" group-title="England",UK: ITV+1
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV+1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62577
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV2" tvg-logo="" group-title="England",UK: ITV2
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62578
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV2+1" tvg-logo="" group-title="England",UK: ITV2+1
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV2+1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62579
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV3" tvg-logo="" group-title="England",UK: ITV3
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62580
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV3+1" tvg-logo="" group-title="England",UK: ITV3+1
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV3+1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62581
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV4" tvg-logo="" group-title="England",UK: ITV4
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62582
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITV4+1" tvg-logo="" group-title="England",UK: ITV4+1
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITV4+1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62583
-#EXTINF:-1 tvg-id="" tvg-name="UK: ITVBe" tvg-logo="" group-title="England",UK: ITVBe
+
+#EXTINF:-1 group-title="TV" tvg-logo="",ITVBe
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
 http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62584
 
 # 📺 TV España
