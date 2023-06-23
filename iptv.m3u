@@ -1,345 +1,167 @@
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-vodafone-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-meo-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-rytec-pt.xml.xz"
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-vodafone-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-meo-pt.xml.xz,https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-rytec-pt.xml.xz,https://raw.githubusercontent.com/f0nZ/epg-tv-portuguesa/master/guide.xml"
 
 # M3UPT.com - IPTV playlist in M3U format with 📺 TV channels and 📻 radio stations in 🇵🇹 Portuguese. Public and official streams only.
 
 # 📺 TV Portugal
 
-#EXTINF:-1 group-title="TV" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTINF:-1 group-title="Portugal" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
 #EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTINF:-1 group-title="Portugal" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
 #EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
+https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#EXTINF:-1 group-title="Portugal" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 #https://eventos.live.impresa.pt/opto_in1.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#EXTINF:-1 group-title="Portugal" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDIzIDEwOjQ6MTkgUE0maGFzaF92YWx1ZT1vYUhtVyt3M1FFV2NlakJTbzAzNG9RPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZWU5MTY0ZWMtZGM4NS00ZjM2LThlYTMtZGMzYjdlYmVjZTY0/
 
-#EXTINF:-1 group-title="TV" tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+#EXTINF:-1 group-title="Portugal" tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
 #EXTVLCOPT:http-user-agent=Firefox
-https://streaming-live-app.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
+#EXTINF:-1 group-title="Portugal" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://sicnot.live.impresa.pt/sicnot.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+#EXTINF:-1 group-title="Portugal" tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDIzIDEwOjQ6MjAgUE0maGFzaF92YWx1ZT1WNHJMOHNPSXd0OTJheFh5T3BpcnlBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YmNlNzY2NzAtMTk4ZC00OWJjLWEwMmEtMGU5YmU2NDg2NGE3/
 
-#EXTINF:-1 group-title="TV" tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+#EXTINF:-1 group-title="Portugal" tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+#EXTINF:-1 group-title="Portugal" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Firefox
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+#EXTINF:-1 group-title="Portugal" tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDIzIDEwOjQ6MjEgUE0maGFzaF92YWx1ZT1LeUJubjZqbG0ycmtmQmt0WUpPSWl3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9YjI5MmUyN2UtYzkxNS00M2NkLWIwMTQtNjFhYTg3YWQ0NWE1/
 
-#EXTINF:-1 group-title="TV" tvg-id="tvificcao.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
+#EXTINF:-1 group-title="Portugal" tvg-id="tvificcao.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png",TVI Reality
+#EXTINF:-1 group-title="Portugal" tvg-id="tvireality.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png",TVI Reality
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://video-auth4.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-720_passthrough/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8xMi8yMDIzIDEwOjQ6MjIgUE0maGFzaF92YWx1ZT12VkZ2S2dZQ3NCY0g2aGxLYzVhdnhBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NTEzYzgyODEtNjM1OS00YjgxLWE4MDEtMTk1ZjMxZDM4YzYz/
 
-#EXTINF:-1 group-title="TV" tvg-id="sicnovelashd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Novelas.png",SIC Novelas
+#EXTINF:-1 group-title="Portugal" tvg-id="sicnovelashd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Novelas.png",SIC Novelas
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://eventos.live.impresa.pt/opto_in2.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="portochd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
+#EXTINF:-1 group-title="Portugal" tvg-id="portochd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://stream-02.nyc.dailymotion.com/sec(-SVy60QQ6sKn1Jfj-v9Q0vypjIG5KVce2MkQTTuSyIaZXFpUSIBIK9VksK793Dq9)/dm/3/x8egnb8/s/live-2.m3u8
+https://streamer-b02.videos.sapo.pt/live/portocanal/master.m3u8
 
 
 # 📺 TV Brasil
-#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porta-dos-Fundos.jpg",Porta dos Fundos
+#EXTINF:-1 group-title="Brasil" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porta-dos-Fundos.jpg",Porta dos Fundos
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown
 
 # 📺 TV Irlanda
-#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Gold_2014.svg/1200px-Gold_2014.svg.png",Gold Ireland
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Gold_2014.svg/1200px-Gold_2014.svg.png",Gold Ireland
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/1108
 
-
-#EXTINF:-1 group-title="TV" tvg-logo="https://media.info/i/lf/0/1388405600/112.png",RTÉ 1
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://media.info/i/lf/0/1388405600/112.png",RTÉ 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RTÉ2_logo.svg/1200px-RTÉ2_logo.svg.png",RTÉ 2
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RTÉ2_logo.svg/1200px-RTÉ2_logo.svg.png",RTÉ 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/279272
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://irishradiolive.com/public/uploads/radio_img/rte-junior/fb_cover.jpg",RTÉ JR
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://irishradiolive.com/public/uploads/radio_img/rte-junior/fb_cover.jpg",RTÉ JR
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/1545
 
-#EXTINF:-1 group-title="TV" tvg-logo="",RTÉ News
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://play-lh.googleusercontent.com/bfCcbpVKedxI90JHLvp4Dhol2Yxrcorsyyu9QUZDs82JPLSBd0pnhNniyWbHuTTHlOo=w480-h960",RTÉ News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-http://premiumiptvmk.com:8080/05add9be/df28c0b5be/4774
+https://live.rte.ie/live/a/channel3/news.isml/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Setanta_Sports_1_2019.png/revision/latest?cb=20220714215318",Setanta Sports 1
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d2/Setanta_Sports_1_2019.png/revision/latest?cb=20220714215318",Setanta Sports 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/54320
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.goalzz.com/?i=o%2Fh%2F0%2F438%2Fsetanta-sports-2-2.png",Setanta Sports 2
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://i.goalzz.com/?i=o%2Fh%2F0%2F438%2Fsetanta-sports-2-2.png",Setanta Sports 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/299022
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://es.wikipedia.org/wiki/Archivo:TG4_logo.svg",TG 4
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://es.wikipedia.org/wiki/Archivo:TG4_logo.svg",TG 4
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/11572
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://static.tvmaze.com/uploads/images/large_landscape/395/988351.jpg",Virgin Media One
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://static.tvmaze.com/uploads/images/large_landscape/395/988351.jpg",Virgin Media One
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/122200
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://media.info/i/lf/600/1536429801/116.png",Virgin Media Two
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://media.info/i/lf/600/1536429801/116.png",Virgin Media Two
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/11683
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://media.info/i/lf/600/1536429861/179.png",Virgin Media Three
+#EXTINF:-1 group-title="Irlanda" tvg-logo="https://media.info/i/lf/600/1536429861/179.png",Virgin Media Three
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://premiumiptvmk.com:8080/05add9be/df28c0b5be/7995
 
 # 📺 TV UK
-#EXTINF:-1 group-title="TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",MTV
+#EXTINF:-1 group-title="Reino Unido" tvg-logo="https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/bltbb2b0cf0f8615935/61ee9cfc284f0d35bcbb3af2/Main-Image-SN.jpg",Sky News UK
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_sd/Live/channel(skynews)/index_hd.m3u8
+
+#EXTINF:-1 group-title="Reino Unido" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",MTV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 http://195.24.89.82/MTV_SD/index.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/J9iWjWL.png",Teletubbies
+#EXTINF:-1 group-title="Reino Unido" tvg-logo="https://i.imgur.com/J9iWjWL.png",Teletubbies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://dhx-teletubbies-2-it.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV+1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62577
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62578
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV2+1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62579
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV3
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62580
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV3+1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62581
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV4
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62582
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITV4+1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62583
-
-#EXTINF:-1 group-title="TV" tvg-logo="",ITVBe
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://ale-the-king1.dyndns.org:80/wcn8zF1Q/em4TpwHRPd/62584
-
 # 📺 TV España
 
-#EXTINF:-1 group-title="TV" tvg-logo="https://i.imgur.com/NbesiPn.png",La 1
+#EXTINF:-1 group-title="Espanha" tvg-logo="https://i.imgur.com/NbesiPn.png",La 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://ztnr.rtve.es/ztnr/1688877.m3u8
 
-#EXTM3U
-#EXTINF:-1,ES - #0 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3113
-#EXTINF:-1,ES - A3 SERIES INT.
-http://tv.fullytv.com:8080/vladi1/vladi1/3961
-#EXTINF:-1,ES - A3 SERIES
-http://tv.fullytv.com:8080/vladi1/vladi1/35495
-#EXTINF:-1,ES - ANTENA 3 INT.
-http://tv.fullytv.com:8080/vladi1/vladi1/4108
-#EXTINF:-1,ES - ANTENA 3
-http://tv.fullytv.com:8080/vladi1/vladi1/35494
-#EXTINF:-1,ES - ANDALUCIA TV
-http://tv.fullytv.com:8080/vladi1/vladi1/3610
-#EXTINF:-1,ES - BABY TV
-http://tv.fullytv.com:8080/vladi1/vladi1/3090
-#EXTINF:-1,ES - BAR TV HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3131
-#EXTINF:-1,ES - BARÃ‡A TV
-http://tv.fullytv.com:8080/vladi1/vladi1/3104
-#EXTINF:-1,ES - BOING
-http://tv.fullytv.com:8080/vladi1/vladi1/3119
-#EXTINF:-1,ES - BEINS SPORTS ESPAÃ‘A
-http://tv.fullytv.com:8080/vladi1/vladi1/3118
-#EXTINF:-1,ES - CALLE 13 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/17192
-#EXTINF:-1,ES - CANAL COCINA
-http://tv.fullytv.com:8080/vladi1/vladi1/3120
-#EXTINF:-1,ES - CANAL DE CASA
-http://tv.fullytv.com:8080/vladi1/vladi1/3121
-#EXTINF:-1,ES - MOVISTAR GOLF HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3149
-#EXTINF:-1,ES - CAZA Y PESCA
-http://tv.fullytv.com:8080/vladi1/vladi1/3123
-#EXTINF:-1,ES - CLAN
-http://tv.fullytv.com:8080/vladi1/vladi1/4131
-#EXTINF:-1,ES - CLAN TVE
-http://tv.fullytv.com:8080/vladi1/vladi1/3124
-#EXTINF:-1,ES - COMEDY CENTRAL HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3103
-#EXTINF:-1,ES - COSMO
-http://tv.fullytv.com:8080/vladi1/vladi1/4177
-#EXTINF:-1,ES - DIVINITY
-http://tv.fullytv.com:8080/vladi1/vladi1/3126
-#EXTINF:-1,ES - ENERGY
-http://tv.fullytv.com:8080/vladi1/vladi1/3109
-#EXTINF:-1,ES - FDF
-http://tv.fullytv.com:8080/vladi1/vladi1/3169
-#EXTINF:-1,ES - FOX HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3161
-#EXTINF:-1,ES - FOX LIFE HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3162
-#EXTINF:-1,ES - GOL TV
-http://tv.fullytv.com:8080/vladi1/vladi1/3128
-#EXTINF:-1,ES - HISTORIA
-http://tv.fullytv.com:8080/vladi1/vladi1/3163
-#EXTINF:-1,ES - HOLLYWOOD HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3164
-#EXTINF:-1,ES - IBERALIA
-http://tv.fullytv.com:8080/vladi1/vladi1/3152
-#EXTINF:-1,ES - LA 1 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3165
-#EXTINF:-1,ES - LA 2 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3130
-#EXTINF:-1,ES - LA CUATRO
-http://tv.fullytv.com:8080/vladi1/vladi1/17191
-#EXTINF:-1,ES - LA SEXTA FHD
-http://tv.fullytv.com:8080/vladi1/vladi1/3166
-#EXTINF:-1,ES - LIGA DE CAMPEONES  FHD
-http://tv.fullytv.com:8080/vladi1/vladi1/16717
-#EXTINF:-1,ES - MEGA
-http://tv.fullytv.com:8080/vladi1/vladi1/3167
-#EXTINF:-1,ES - DAZN 1
-http://tv.fullytv.com:8080/vladi1/vladi1/4178
-#EXTINF:-1,ES - MOVISTAR  ACTION
-http://tv.fullytv.com:8080/vladi1/vladi1/3142
-#EXTINF:-1,ES - MOVISTAR COMEDIA
-http://tv.fullytv.com:8080/vladi1/vladi1/3143
-#EXTINF:-1,ES - MOVISTAR CINE Ã‘
-http://tv.fullytv.com:8080/vladi1/vladi1/6026
-#EXTINF:-1,ES - MOVISTAR DEPORTES
-http://tv.fullytv.com:8080/vladi1/vladi1/3146
-#EXTINF:-1,ES - MOVISTAR ESTRENOS
-http://tv.fullytv.com:8080/vladi1/vladi1/3147
-#EXTINF:-1,ES - MOVISTAR F1 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3093
-#EXTINF:-1,ES - MOVISTAR FORMULA 1
-http://tv.fullytv.com:8080/vladi1/vladi1/3094
-#EXTINF:-1,ES - MOVISTAR LA LIGA 1
-http://tv.fullytv.com:8080/vladi1/vladi1/32365
-#EXTINF:-1,ES - MOVISTAR MOTO GP FHD ( SOLO EVENTOS)
-http://tv.fullytv.com:8080/vladi1/vladi1/3096
-#EXTINF:-1,IT -  MOTO GP HD (solo eventos)
-http://tv.fullytv.com:8080/vladi1/vladi1/3145
-#EXTINF:-1,ES - MOVISTAR SERIES
-http://tv.fullytv.com:8080/vladi1/vladi1/6027
-#EXTINF:-1,ES - MOVISTAR TOROS TV
-http://tv.fullytv.com:8080/vladi1/vladi1/3153
-#EXTINF:-1,ES - NEOX
-http://tv.fullytv.com:8080/vladi1/vladi1/3132
-#EXTINF:-1,ES - NOVA
-http://tv.fullytv.com:8080/vladi1/vladi1/3108
-#EXTINF:-1,ES - ODISEA
-http://tv.fullytv.com:8080/vladi1/vladi1/3135
-#EXTINF:-1,ES - PANDA
-http://tv.fullytv.com:8080/vladi1/vladi1/3136
-#EXTINF:-1,ES - REAL MADRID TV
-http://tv.fullytv.com:8080/vladi1/vladi1/3689
-#EXTINF:-1,ES - TAQUILLA 1
-http://tv.fullytv.com:8080/vladi1/vladi1/3097
-#EXTINF:-1,ES - TAQUILLA 2
-http://tv.fullytv.com:8080/vladi1/vladi1/3107
-#EXTINF:-1,ES - TAQUILLA 3
-http://tv.fullytv.com:8080/vladi1/vladi1/3106
-#EXTINF:-1,ES - TCM HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3171
-#EXTINF:-1,ES - TELECINCO HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3172
-#EXTINF:-1,ES - TNT
-http://tv.fullytv.com:8080/vladi1/vladi1/3138
-#EXTINF:-1,ES - MOVISTAR GOLF
-http://tv.fullytv.com:8080/vladi1/vladi1/3709
-#EXTINF:-1,ES - FOX HD
-http://tv.fullytv.com:8080/vladi1/vladi1/47695
-#EXTINF:-1,ES - FOX HD
-http://tv.fullytv.com:8080/vladi1/vladi1/47696
-#EXTINF:-1,ES - LA LIGA TV BAR FHD
-http://tv.fullytv.com:8080/vladi1/vladi1/51343
-#EXTINF:-1,ES - MOVISTAR  #VAMOS
-http://tv.fullytv.com:8080/vladi1/vladi1/51453
-#EXTINF:-1,ES - MOVISTAR F1 FHD
-http://tv.fullytv.com:8080/vladi1/vladi1/53028
-#EXTINF:-1,ES - LA 1 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/53894
-#EXTINF:-1,ES - TV GALICIA
-http://tv.fullytv.com:8080/vladi1/vladi1/54155
-#EXTINF:-1,ES - MOVISTAR DEPORTES 2 HD
-http://tv.fullytv.com:8080/vladi1/vladi1/1090600
-#EXTINF:-1,ES - TELEDEPORTE FHD
-http://tv.fullytv.com:8080/vladi1/vladi1/3173
-#EXTINF:-1,ESP - BE MAD
-http://tv.fullytv.com:8080/vladi1/vladi1/32619
-#EXTINF:-1,ESP - TOROS HD
-http://tv.fullytv.com:8080/vladi1/vladi1/2061
-#EXTINF:-1,ESP - TVE
-http://tv.fullytv.com:8080/vladi1/vladi1/32620
-#EXTINF:-1,ESP - VIAJAR HD
-http://tv.fullytv.com:8080/vladi1/vladi1/3174
+
+#EXTINF:-1 group-title="Espanha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/1200px-Logo_TVE-2.svg.png",La 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ztnr.rtve.es/ztnr/1688885.m3u8
